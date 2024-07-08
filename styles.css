@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#title{
+    width: 60%;
+    margin: 0 auto 5%;
+}
+
+.topbar{
+    margin-bottom: 7%;
+}
+
+.logo-pic{
+    width: 180px;
+    height: 70px;
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item, .nav-item a {
+    display: inline-block;
+    color: black !important;
+    font-weight: 500;
+    padding: 10px 15px;
+    font-size: 20px;
+    text-decoration: none;
+  
+}
+
+.nav-item a:hover {
+    text-decoration: none; 
+}
+
+.journey{
+    line-height: 25px;
+}
+
+.camera-pic{
+    margin-left: 30%;
+}
+
+#title h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+
+#title .prebook-button {
+    background-color: #e02c6d;
+    font-size: 20px;
+    padding: 11px 25px;
+    border-radius: 31px;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    outline: none;
+}
+
+
+#title .prebook-button:hover {
+    background-color: #e8a6c7;
+    transform: scale(1.05);
+}
+
+.hr1{
+    width: 60%;
+    margin: 0 auto 1%;
+}
+
+.partner-images{
+    text-align: center;  
+}
+
+.partner-image{
+    padding: 0 25px 0;  
+}
+
+.hr2{
+    width: 58%;
+    margin: 1% auto 0;
+}
+
+#items h2{
+    text-align: center;
+    padding: 2%;
+}
+
+#items .card-title{
+    line-height: 50px;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+#items .card-text{
+    line-height: 25px;
+}
+
+
+#items .see-more{
+    margin: 2% 0;
+    float: right;
+    font-size: 20px;
+    padding: 11px 25px;
+    border: none;
+    color: #e02c6d;
+    background-color: #fff;
+    outline: none;
+   
+}
+
+#featured{
+    width: 58%;
+    margin: 8% auto 4%;
+}
+
+#featured .join-button{
+
+    background-color: #e02c6d;
+    font-size: 20px;
+    padding: 11px 25px;
+    border-radius: 31px;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    outline: none;
+}
+
+#featured .join-button:hover {
+    background-color: #e8a6c7;
+    transform: scale(1.05);
+}
+
+
+.featured-pic{
+    float: left;
+    margin-right: 5%;
+}
+
+.featured-join{
+    padding: 5%;
+    line-height: 25px;
+}
+
+
+
+#footer{
+    background-color: #0a0826;
+    padding: 2% 0 3%;
+}
+
+.rights{
+    text-align: center;
+    color: #fff;
+}
+
+.icons {
+    color: #fff;
+    text-align: center;
+}
+
+.icon {
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease; 
+}
+
+.icon:hover {
+    color: #e02c6d; 
+}
